@@ -17,9 +17,10 @@
    		ex) clang -g test.c          
 ---------------------------------------------------          
 ## start lldb (2step)         
-	1. execute lldb : lldb [exe file]          
+	step 1. execute lldb : lldb [exe file]          
 		ex) lldb a.out          
-	2. run lldb : just type `run`         
+	step 2. run lldb : just type `run`       
+	     	run with arguments : `r arg1 arg2`   
 ---------------------------------------------------          
 ## exit lldb (2methods)         
 	- ^D (ctrl + d)          
@@ -58,11 +59,8 @@
 	<address>    
 	p &[variable_name]    
 		ex) p &i    
-		ex) p &result   
----------------------------------------------------   
-## run with argv   
-	r argc1 argc2    
-     
+		ex) p &result    
+   
 ---------------------------------------------------          
 ##  lldb awesome    
 	https://www.letmecompile.com/xcode-lldb-%EB%94%94%EB%B2%84%EA%B9%85-%ED%85%8C%ED%81%AC%EB%8B%89/    
