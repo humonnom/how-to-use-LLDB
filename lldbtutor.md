@@ -19,8 +19,11 @@
 ## start lldb (2step)         
 	step 1. execute lldb : lldb [exe file]          
 		ex) lldb a.out          
-	step 2. run lldb : just type `run`       
-	     	run with arguments : `r arg1 arg2`   
+	step 2. run lldb : just type `run`   
+		ex) run   
+	     	run with arguments : `r arg1 arg2`  
+		ex) run a b   
+		    run "a" "b"   
 ---------------------------------------------------          
 ## exit lldb (2methods)         
 	- ^D (ctrl + d)          
