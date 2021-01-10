@@ -23,7 +23,7 @@
 		ex) run   
 	     	run with arguments : `r arg1 arg2`  
 		ex) run a b   
-		    run "a" "b"   
+		    run "a and b" "c"    
 ---------------------------------------------------          
 ## exit lldb (2methods)         
 	- ^D (ctrl + d)          
