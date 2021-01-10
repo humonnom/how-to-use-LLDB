@@ -58,8 +58,11 @@
 	<address>    
 	p &[variable_name]    
 		ex) p &i    
-		ex) p &result    
-    
+		ex) p &result   
+---------------------------------------------------   
+## run with argv   
+	r argc1 argc2    
+     
 ---------------------------------------------------          
 ##  lldb awesome    
 	https://www.letmecompile.com/xcode-lldb-%EB%94%94%EB%B2%84%EA%B9%85-%ED%85%8C%ED%81%AC%EB%8B%89/    
